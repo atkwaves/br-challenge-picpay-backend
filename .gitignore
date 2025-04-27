@@ -1,24 +1,58 @@
-# Compiled class file
+### Arquivos de documentação ###
+HELP.md
+
+### Diretórios de build ###
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Maven Wrapper ###
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Spring Tool Suite (STS) ###
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+### Visual Studio Code ###
+.vscode/
+
+### Arquivos compilados ###
 *.class
 
-# Log file
+### Arquivos de log ###
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
+### Arquivos temporários de sistema ###
+*.tmp
+*.bak
+*.swp
 .mtj.tmp/
+.DS_Store
+Thumbs.db
 
-# Package Files #
+### Arquivos de pacotes ###
 *.jar
 *.war
-*.nar
 *.ear
+*.nar
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+### Logs de crash da máquina virtual ###
 hs_err_pid*
 replay_pid*
